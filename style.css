@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    width: 100%;
+    max-width: 1440px;
+    background-color: black;
+    color:white ;
+    margin: 0 auto;
+    border: 2px solid red;
+    
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+    
+
+    
+
+/* share style */
+.display-flex{
+    display: flex;
+
+
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {}
