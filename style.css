@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-    width: 100%;
+    /* width: 100%; */
     max-width: 1440px;
     background-color: black;
     color:white ;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -24,8 +24,406 @@ body{
 
 
 }
+.btn-primary{
+    background-color: #E6533C;
+    font-size: 1.13rem;
+    width: 224px;
+    height: 54px;
+    color: #ffff;
+    border-style: none;
+    border-radius:4.60rem ;
+
+
+
+
+}
+.btn-secondary{
+    background-color: black;
+    font-size: 1.13rem;
+    width: 224px;
+    height: 54px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    border-radius:4.60rem ;
+
+
+
+
+}
+.grey-text{
+    font-size: 0.87rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+
+    
+}
+main{
+    margin: 0 auto;
+   /* padding-left: 100px;
+   padding-right: 100px; */
+}
+section{
+    margin-top: 50px;
+}
+
+
+/* header section style */
+header ,main ,footer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
 .navbar{
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+    
 }
-.navbar {}
+.navbar h3{ 
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 900;
+    font-style: italic;
+}
+.navbar .nav-list{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+
+}
+.navbar .nav-item {
+    list-style: none;
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+    
+}
+#nav-home{
+    background-color: #E6533C;
+    border-radius: 2.18rem;
+    margin-left: 0px;
+
+}
+.navbar .nav-link{
+    text-decoration: none;
+    font-size: 1.12rem;
+    color: #ffff;
+    
+
+
+}
+/* banner style */
+.banner-content{
+    width: 50%;
+   
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-title{
+    font-size: 4.9rem;
+
+}
+.banner-discripation{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.banner-image img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.banner-image{
+    min-width: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.banner-image .btn3{
+    position: absolute;
+    margin-top: -150px;
+    left: -50px;
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    
+    
+}
+.btn3,.btn4 h3{
+    color: rgba(250, 250, 249, 1);
+}
+.banner-image .btn4{
+    position: absolute;
+    top: 100px;
+    right: -50px;
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+.text-modify{
+    
+}
+/* habit section */
+.habit{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-task{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.task{
+    padding: 1.5rem;
+    margin: 40px 20px;
+    
+}
+.task h5{
+    font-size: 1.13rem;
+    font-weight: 600;
+    
+    
+}
+
+.task img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.running{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin:0 auto;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.running-tips{ 
+    max-width: 443px;
+}
+.running-tips h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.running-image{
+    justify-content: center;
+    align-items: center;
+   max-width: 366px;
+}
+.running-image img{
+     max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.exercises-image{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.exercises-card img{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    color: rgba(6, 255, 210, 0.5);
+    
+
+    
+    
+}
+.ex-tital{position: absolute;
+    margin-top: -150px;
+    margin-left: 70px;
+
+}
+
+/* bmi calculator */
+.bmi-content{
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+}
+.chart{
+    width: 50%;
+}
+
+.chart tbody{
+    color: rgba(255, 255, 255, 0.525);
+    
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgba(250, 250, 249, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+}
+/* Calculate your BMI */
+.calculator-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+  
+   
+}
+input,select{
+    background-color: rgba(255, 255, 255, 0.179);
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+  
+    margin: 0;
+
+
+}
+
+
+
+.team{
+    max-width: 1060px;
+    border: 2px solid red;
+}
+.team-content{
+    text-align: center;
+}
+.team-card{
+    max-width: 326px;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+.team-image{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+    
+    
+}
+
+    
+
+
+.team-img img{
+    width: 320px;
+    height: 272px;
+    
+    border-radius: 8px;
+   object-fit: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.trainer-name{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -100px;
+
+}
+
+footer{
+    
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+footer .brand h1{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 900;
+    font-style: italic;
+}
+.brand{
+    max-width: 50%;
+}
+
+footer .get{
+    max-width: 50%;
+    justify-content: space-between;
+}
+.get-started1 {
+    
+    max-width: 180px;
+    
+}
+.get-started2{
+   
+    max-width: 180px;
+
+}
+
+@media screen and (max-width:576px) {
+    body{
+        margin: 0 auto;
+    }
+    ul.nav-list, .nav-item {
+      display: none;
+    }
+
+.banner,.navbar, .running, .bmi-calculator, .footer1, .get{
+    flex-direction: column;
+}
+
+    
+.banner-title{
+    font-size: 2.9rem;
+
+}
+.banner-content, .running-tips, .brand, .get, .chart {
+    width: 100%;
+}
+.habit-task, .team-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.get-started1 {
+    
+    min-width: 100%;
+    
+}
+.get-started2{
+    width: 100%;
+   
+    
+
+}
+.btn4{
+    
+    right: 0px;
+}
+
+
+
+
+
+
+}
+
+
